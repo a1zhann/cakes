@@ -1,18 +1,23 @@
 html{
     scroll-behavior: smooth;
 }
+.main
+{
+    display: flex;
+    flex-direction: column;
+}
 .navbar
 {
     height: 100px;
     width: 100%;
-    border: 1px solid black;
+   
     display: flex;
     justify-content: space-around;
 }
 .logotype
 {
     width: 35%;
-    border: 1px solid black;
+    
 }
 .logo
 {
@@ -24,7 +29,6 @@ html{
 {
     margin-left: -100px;
     width: 50%;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
 }
@@ -34,7 +38,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    
 }
 .cakes_border
 {
@@ -45,4 +49,89 @@ html{
     justify-content: center;
     align-items: center;
     border-radius: 50px;
+}
+.image_container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+p
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    text-align: center;
+}
+.img
+{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+} 
+.cake
+{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+}
+.pirozheniye{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cups
+{
+    flex-direction: column;
+}
+.inner
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.outer
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer
+{
+    width: 100%;
+    height: 60vh;
+}
+.footer_logo{
+    width: 20vw;
+    border-radius: 50px;
+   
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    color:hotpink;
+    font-size: 2em;
+}
+.company{
+    font-size: 2.1em;
+
+}
+.about_comp{
+    list-style: none;
+
+}
+.logo1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    width:50%;
+    display: flex;
+    justify-content: center;
 }
