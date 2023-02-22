@@ -135,3 +135,64 @@ li{
     display: flex;
     justify-content: center;
 }
+
+
+
+@media screen and (max-width:1084px) {
+    .btn
+    {
+        font-size: 0.8em;
+    }
+    .cake
+    {
+        width: 200px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .img
+    {
+        width: 200px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .cakes_border
+    {
+        height: 2em;
+        width: 50%;
+    }
+}
+@media screen and (max-width:960px) {
+    .navigation_words
+    {
+        width: 75%;
+    }
+    .logotype
+    {
+        width: 20%;
+    }
+    .btn
+    {
+        font-size: 0.8em;
+    }
+    .cake
+    {
+        width: 150px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    .img
+    {
+        width: 150px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    .cakes_border
+    {
+        height: 2em;
+        width: 50%;
+    }
+    li
+    {
+        font-size: 1.5em;
+    }
+}
